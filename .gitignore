@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+bin/
+obj/
+
+# Visual Studio user-specific files
+*.csproj.user
+
+# Test results
+TestResults/
+
+# Rider
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
