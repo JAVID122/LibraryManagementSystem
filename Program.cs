@@ -1,7 +1,7 @@
 using LibraryManagementSystem.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace Library_Management_System
+namespace LibraryManagementSystem
 {
     public class Program
     {
