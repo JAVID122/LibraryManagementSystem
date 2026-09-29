@@ -1,4 +1,6 @@
-﻿namespace LibraryManagementSystem.Models
+﻿using System.Text.Json.Serialization;
+
+namespace LibraryManagementSystem.Models
 {
     public class Borrowing
     {
@@ -6,11 +8,13 @@
 
         public int BookId { get; set; }
 
-        public Book Book { get; set; } = null!;
+        [JsonIgnore]
+        public Book? Book { get; set; }
 
         public int MemberId { get; set; }
 
-        public Member Member { get; set; } = null!;
+        [JsonIgnore]
+        public Member? Member { get; set; }
 
         public DateTime BorrowedDate { get; set; }
 
